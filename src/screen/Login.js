@@ -23,7 +23,7 @@ export default function App(props) {
 
   return (
     <View style={styles.container}>
-      <Image  style={styles.imagem} source={require('./../../assets/logo.png')} style={styles.imagem} />
+      <Image  source={require('./../../assets/logo.png')} style={styles.imagem} />
 
       <Text>Digite seu e-mail e senha para entrar</Text>
       <Text style={styles.mensagemErro}>{mensagem}</Text>
@@ -63,11 +63,7 @@ export default function App(props) {
 }
 
 const styles = StyleSheet.create({
-  imagem:
-  {
-    padding:1,
-    width: '100%',
-  },
+
   container: {
     flex: 1,
     backgroundColor: '#fff',

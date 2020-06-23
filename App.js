@@ -10,11 +10,11 @@ import { CardStyleInterpolators } from '@react-navigation/stack'
 
 
 
-//Desabilitano Warnings
+
 import { YellowBox } from 'react-native'
 YellowBox.ignoreWarnings(['Setting a timer'])
 
-//Configurando Encondig
+
 import { decode, encode } from 'base-64'
 if (!global.btoa) {
   global.btoa = encode
